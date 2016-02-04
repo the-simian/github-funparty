@@ -1,0 +1,9 @@
+[
+  {
+    "type": "MenuItem",
+    "props": {
+      "primaryText": "MenuItem"
+    },
+    "children":[]
+  }
+]

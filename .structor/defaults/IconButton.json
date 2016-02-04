@@ -1,0 +1,13 @@
+[
+  {
+    "variantName": "Default",
+    "type": "IconButton",
+    "props": {
+      "iconClassName": "fa fa-star",
+      "tooltip": "Star....",
+      "disabled": false,
+      "tooltipPosition": "bottom-center"
+    },
+    "children": []
+  }
+]

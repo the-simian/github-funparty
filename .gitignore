@@ -1,0 +1,6 @@
+#ignore basic npm stuff
+.DS_Store
+*.node
+*.log
+node_modules
+public/resources

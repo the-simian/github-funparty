@@ -1,0 +1,17 @@
+[
+  {
+    "variantName": "Default",
+    "type": "SvgIcon",
+    "props": {},
+    "children": [
+      {
+        "type": "path",
+        "props": {
+          "d": "M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z",
+          "data-umyid": "179"
+        },
+        "children": []
+      }
+    ]
+  }
+]

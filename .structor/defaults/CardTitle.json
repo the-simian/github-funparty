@@ -1,0 +1,11 @@
+[
+  {
+    "variantName": "Simple card title",
+    "type": "CardTitle",
+    "props": {
+      "title": "Title",
+      "subtitle": "Subtitle"
+    },
+    "children": []
+  }
+]

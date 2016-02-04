@@ -1,0 +1,34 @@
+[
+  {
+    "variantName": "With plain text",
+    "type": "CardText",
+    "props": {},
+    "children": [
+      {
+        "type": "span",
+        "props": {
+          "data-umyid": "69"
+        },
+        "children": [],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.  Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio."
+      }
+    ]
+  },
+  {
+    "variantName": "Expandable",
+    "type": "CardText",
+    "props": {
+      "expandable": true
+    },
+    "children": [
+      {
+        "type": "span",
+        "props": {
+          "data-umyid": "69"
+        },
+        "children": [],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.  Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio."
+      }
+    ]
+  }
+]

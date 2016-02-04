@@ -1,0 +1,39 @@
+[
+  {
+    "variantName": "default",
+    "type": "DropDownMenu",
+    "props": {
+      "value": 3,
+      "data-umyid": "237"
+    },
+    "children": [
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 1",
+          "value": 1,
+          "data-umyid": "550"
+        },
+        "children": []
+      },
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 2",
+          "value": 2,
+          "data-umyid": "551"
+        },
+        "children": []
+      },
+      {
+        "type": "MenuItem",
+        "props": {
+          "primaryText": "MenuItem 3",
+          "value": 3,
+          "data-umyid": "552"
+        },
+        "children": []
+      }
+    ]
+  }
+]

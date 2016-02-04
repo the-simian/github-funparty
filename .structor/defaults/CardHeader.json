@@ -1,0 +1,69 @@
+[
+  {
+    "variantName": "With avatar from external link",
+    "type": "CardHeader",
+    "props": {
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "avatar": "http://lorempixel.com/100/100/nature/"
+    },
+    "children": []
+  },
+  {
+    "variantName": "With text avatar",
+    "type": "CardHeader",
+    "props": {
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "avatar": {
+        "type": "Avatar",
+        "children": [
+          {
+            "type": "span",
+            "props": {},
+            "children": [],
+            "text": "A"
+          }
+        ],
+        "props": {}
+      }
+    },
+    "children": []
+  },
+  {
+    "variantName": "With avatar internal image",
+    "type": "CardHeader",
+    "props": {
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "avatar": {
+        "type": "AvatarWithImage",
+        "children": [],
+        "props": {}
+      }
+    },
+    "children": []
+  },
+  {
+    "variantName": "Expandable",
+    "type": "CardHeader",
+    "props": {
+      "title": "Title",
+      "subtitle": "Subtitle",
+      "avatar": {
+        "type": "Avatar",
+        "children": [
+          {
+            "type": "span",
+            "props": {},
+            "children": [],
+            "text": "A"
+          }
+        ],
+        "props": {}
+      },
+      "showExpandableButton": true
+    },
+    "children": []
+  }
+]

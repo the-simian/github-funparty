@@ -1,0 +1,22 @@
+[
+  {
+    "type": "DatePicker"
+  },
+  {
+    "variantName": "Portrait Layout",
+    "type": "DatePicker",
+    "props": {
+      "hintText": "Portrait Dialog"
+    },
+    "children": []
+  },
+  {
+    "variantName": "Landscape Layout",
+    "type": "DatePicker",
+    "props": {
+      "hintText": "Landscape Dialog",
+      "mode": "landscape"
+    },
+    "children": []
+  }
+]

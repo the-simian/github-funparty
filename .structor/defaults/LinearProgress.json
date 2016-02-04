@@ -1,0 +1,1 @@
+[{"variantName":"Indeterminate","type":"LinearProgress","props":{"mode":"indeterminate"},"children":[]},{"variantName":"Determinate","type":"LinearProgress","props":{"mode":"determinate","value":60},"children":[]}]

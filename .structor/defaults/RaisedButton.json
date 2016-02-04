@@ -1,0 +1,31 @@
+[
+  {
+    "variantName": "Default",
+    "type": "RaisedButton",
+    "props": {
+      "label": "Default"
+    },
+    "children": []
+  },
+  {
+    "variantName": "Link Button",
+    "type": "RaisedButton",
+    "props": {
+      "label": "Link",
+      "secondary": true,
+      "linkButton": true,
+      "href": "https://github.com/callemall/material-ui"
+    },
+    "children": []
+  },
+  {
+    "variantName": "Primary",
+    "type": "RaisedButton",
+    "props": {
+      "label": "Default",
+      "primary": true,
+      "disabled": false
+    },
+    "children": []
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "variantName": "Default",
+    "type": "FlatButton",
+    "props": {
+      "label": "Default"
+    },
+    "children": []
+  },
+  {
+    "variantName": "Primary",
+    "type": "FlatButton",
+    "props": {
+      "label": "Primary",
+      "primary": true
+    },
+    "children": []
+  },
+  {
+    "variantName": "Link Button",
+    "type": "FlatButton",
+    "props": {
+      "label": "Link",
+      "linkButton": true,
+      "href": "https://github.com/callemall/material-ui"
+    },
+    "children": []
+  },
+  {
+    "variantName": "Secondary",
+    "type": "FlatButton",
+    "props": {
+      "label": "Secondary",
+      "secondary": true
+    },
+    "children": []
+  }
+]

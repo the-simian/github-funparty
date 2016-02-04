@@ -1,0 +1,25 @@
+[
+  {
+    "variantName": "With two flat buttons",
+    "type": "CardActions",
+    "props": {},
+    "children": [
+      {
+        "type": "FlatButton",
+        "props": {
+          "label": "Action 1",
+          "data-umyid": "66"
+        },
+        "children": []
+      },
+      {
+        "type": "FlatButton",
+        "props": {
+          "label": "Action 2",
+          "data-umyid": "67"
+        },
+        "children": []
+      }
+    ]
+  }
+]

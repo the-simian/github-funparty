@@ -1,0 +1,212 @@
+[
+  {
+    "variantName": "Default",
+    "type": "Card",
+    "props": {},
+    "children": [
+      {
+        "type": "CardHeader",
+        "props": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "avatar": {
+            "type": "Avatar",
+            "children": [
+              {
+                "type": "span",
+                "props": {
+                  "data-umyid": "25"
+                },
+                "children": [],
+                "text": "A"
+              }
+            ],
+            "props": {
+              "data-umyid": "24"
+            }
+          },
+          "data-umyid": "23"
+        },
+        "children": []
+      },
+      {
+        "type": "CardHeader",
+        "props": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "avatar": "http://lorempixel.com/100/100/nature/",
+          "data-umyid": "26"
+        },
+        "children": []
+      },
+      {
+        "type": "CardMedia",
+        "props": {
+          "overlay": {
+            "type": "CardTitle",
+            "props": {
+              "title": "Title",
+              "subtitle": "Subtitle",
+              "data-umyid": "54"
+            }
+          },
+          "data-umyid": "53"
+        },
+        "children": [
+          {
+            "type": "img",
+            "props": {
+              "src": "http://lorempixel.com/600/337/nature/",
+              "data-umyid": "55"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "CardTitle",
+        "props": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "data-umyid": "27"
+        },
+        "children": []
+      },
+      {
+        "type": "CardActions",
+        "props": {
+          "data-umyid": "65"
+        },
+        "children": [
+          {
+            "type": "FlatButton",
+            "props": {
+              "label": "Action 1",
+              "data-umyid": "66"
+            },
+            "children": []
+          },
+          {
+            "type": "FlatButton",
+            "props": {
+              "label": "Action 2",
+              "data-umyid": "67"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "CardText",
+        "props": {
+          "expandable": false,
+          "data-umyid": "68"
+        },
+        "children": [
+          {
+            "type": "span",
+            "props": {
+              "data-umyid": "69"
+            },
+            "children": [],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.  Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "variantName": "Expandable",
+    "type": "Card",
+    "props": {
+      "initiallyExpanded": true
+    },
+    "children": [
+      {
+        "type": "CardHeader",
+        "props": {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "avatar": {
+            "type": "Avatar",
+            "children": [
+              {
+                "type": "span",
+                "props": {
+                  "data-umyid": "89"
+                },
+                "children": [],
+                "text": "A"
+              }
+            ],
+            "props": {
+              "data-umyid": "88"
+            }
+          },
+          "showExpandableButton": true,
+          "data-umyid": "71"
+        },
+        "children": []
+      },
+      {
+        "type": "CardText",
+        "props": {
+          "expandable": true,
+          "data-umyid": "86"
+        },
+        "children": [
+          {
+            "type": "span",
+            "props": {
+              "data-umyid": "87"
+            },
+            "children": [],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.  Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio."
+          }
+        ]
+      },
+      {
+        "type": "CardActions",
+        "props": {
+          "data-umyid": "79",
+          "expandable": true
+        },
+        "children": [
+          {
+            "type": "FlatButton",
+            "props": {
+              "label": "Action 1",
+              "data-umyid": "80"
+            },
+            "children": []
+          },
+          {
+            "type": "FlatButton",
+            "props": {
+              "label": "Action 2",
+              "data-umyid": "81"
+            },
+            "children": []
+          }
+        ]
+      },
+      {
+        "type": "CardText",
+        "props": {
+          "expandable": true,
+          "data-umyid": "82"
+        },
+        "children": [
+          {
+            "type": "span",
+            "props": {
+              "data-umyid": "83"
+            },
+            "children": [],
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque.  Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio."
+          }
+        ]
+      }
+    ]
+  }
+]

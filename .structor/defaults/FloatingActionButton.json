@@ -1,0 +1,13 @@
+[
+  {
+    "type": "FloatingActionButton"
+  },
+  {
+    "variantName": "Default",
+    "type": "FloatingActionButton",
+    "props": {
+      "iconClassName": "fa fa-star"
+    },
+    "children": []
+  }
+]

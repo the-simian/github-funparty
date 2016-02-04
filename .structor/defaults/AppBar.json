@@ -1,0 +1,25 @@
+[
+  {
+    "variantName": "WithRightButton",
+    "type": "AppBar",
+    "props": {
+      "title": "Brand",
+      "iconElementRight": {
+        "type": "FlatButton",
+        "props": {
+          "label": "Save"
+        }
+      }
+    },
+    "children": []
+  },
+  {
+    "variantName": "WithIconClassName",
+    "type": "AppBar",
+    "props": {
+      "iconClassNameRight": "fa fa-chevron-down",
+      "title": "Brand"
+    },
+    "children": []
+  }
+]

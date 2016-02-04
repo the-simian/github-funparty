@@ -1,0 +1,26 @@
+{
+  "pages": [
+    {
+      "pageName": "PageSet1",
+      "children": [
+        {
+          "type": "DemoAppBar",
+          "props": {
+            "title": "ode",
+            "data-umyid": "2"
+          },
+          "children": []
+        }
+      ],
+      "props": {
+        "data-umyid": "1"
+      },
+      "pageMetaInfo": [],
+      "bodyScript": "",
+      "pagePath": "/set1",
+      "pageTitle": "PageSet1",
+      "pageProps": [],
+      "pageScript": ""
+    }
+  ]
+}

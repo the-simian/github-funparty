@@ -1,0 +1,43 @@
+[
+  {
+    "variantName": "default",
+    "type": "List",
+    "props": {
+      "data-umyid": "530"
+    },
+    "children": [
+      {
+        "variantName": "With left icon",
+        "type": "ListItem",
+        "props": {
+          "primaryText": "Inbox",
+          "leftIcon": {
+            "type": "FontIcon",
+            "props": {
+              "className": "fa fa-inbox",
+              "data-umyid": "532"
+            }
+          },
+          "data-umyid": "531"
+        },
+        "children": []
+      },
+      {
+        "variantName": "With left icon",
+        "type": "ListItem",
+        "props": {
+          "primaryText": "Inbox",
+          "leftIcon": {
+            "type": "FontIcon",
+            "props": {
+              "className": "fa fa-inbox",
+              "data-umyid": "534"
+            }
+          },
+          "data-umyid": "533"
+        },
+        "children": []
+      }
+    ]
+  }
+]

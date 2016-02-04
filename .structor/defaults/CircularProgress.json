@@ -1,0 +1,1 @@
+[{"variantName":"Indeterminate","type":"CircularProgress","props":{"mode":"indeterminate"},"children":[]},{"variantName":"Determinate","type":"CircularProgress","props":{"mode":"determinate","value":60},"children":[]},{"variantName":"Indeterminate 1.5x","type":"CircularProgress","props":{"mode":"indeterminate","size":1.5},"children":[]}]

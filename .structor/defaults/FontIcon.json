@@ -1,0 +1,21 @@
+[
+  {
+    "variantName": "Blue home",
+    "type": "FontIcon",
+    "props": {
+      "className": "fa fa-home",
+      "color": "#0077dd"
+    },
+    "children": []
+  },
+  {
+    "variantName": "With hover effect",
+    "type": "FontIcon",
+    "props": {
+      "className": "fa fa-home",
+      "color": "#0077dd",
+      "hoverColor": "red"
+    },
+    "children": []
+  }
+]

@@ -1,0 +1,601 @@
+[
+  {
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+          "data-umyid": "18"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "19"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em",
+                    "height": "4em"
+                  },
+                  "data-umyid": "20"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+                    "props": {
+                      "data-umyid": "21"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+          "data-umyid": "22"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "23"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em",
+                    "height": "4em"
+                  },
+                  "data-umyid": "24"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+                    "props": {
+                      "data-umyid": "25"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+          "data-umyid": "23"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "24"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em",
+                    "height": "4em"
+                  },
+                  "data-umyid": "25"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+                    "props": {
+                      "data-umyid": "26"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "type": "Row",
+    "props": {
+      "className": "row center-xs"
+    },
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs-6",
+          "data-umyid": "41"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "42"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em"
+                  },
+                  "data-umyid": "43"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "center-xs col-xs-6",
+                    "props": {
+                      "data-umyid": "44"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+          "data-umyid": "23"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "24"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em"
+                  },
+                  "data-umyid": "25"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs-12 col-sm-8 col-md-6 col-lg-4",
+                    "props": {
+                      "data-umyid": "26"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1325"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1326"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1406"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1329"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1330"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1405"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1333"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1334"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1407"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1376"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1377"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1396"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1380"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1381"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1397"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1384"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1385"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1398"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1388"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1389"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1399"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "className": "col-xs",
+          "data-umyid": "1392"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "1393"
+            },
+            "children": [
+              {
+                "type": "img",
+                "props": {
+                  "width": 200,
+                  "height": 100,
+                  "src": "http://placehold.it/200x100",
+                  "data-umyid": "1400"
+                },
+                "children": []
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  },
+  {
+    "variantName": "3 Col with autosize",
+    "type": "Row",
+    "props": {},
+    "children": [
+      {
+        "type": "Col",
+        "props": {
+          "auto": true,
+          "data-umyid": "18"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "19"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em"
+                  },
+                  "data-umyid": "20"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs (auto size)",
+                    "props": {
+                      "data-umyid": "21"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "auto": true,
+          "data-umyid": "44"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "45"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em"
+                  },
+                  "data-umyid": "46"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs (auto size)",
+                    "props": {
+                      "data-umyid": "47"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      },
+      {
+        "type": "Col",
+        "props": {
+          "auto": true,
+          "data-umyid": "48"
+        },
+        "children": [
+          {
+            "type": "Box",
+            "props": {
+              "data-umyid": "49"
+            },
+            "children": [
+              {
+                "type": "p",
+                "props": {
+                  "style": {
+                    "textAlign": "center",
+                    "border": "dotted 1px #f0ad4e",
+                    "borderRadius": "0.2em"
+                  },
+                  "data-umyid": "50"
+                },
+                "children": [
+                  {
+                    "type": "span",
+                    "text": "col-xs (auto size)",
+                    "props": {
+                      "data-umyid": "51"
+                    }
+                  }
+                ]
+              }
+            ],
+            "text": null
+          }
+        ],
+        "text": null
+      }
+    ],
+    "text": null
+  }
+]

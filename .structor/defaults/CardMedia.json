@@ -1,0 +1,25 @@
+[
+  {
+    "variantName": "With overlay and image",
+    "type": "CardMedia",
+    "props": {
+      "overlay": {
+        "type": "CardTitle",
+        "props": {
+          "title": "Title",
+          "subtitle": "Subtitle"
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "img",
+        "props": {
+          "src": "http://lorempixel.com/600/337/nature/",
+          "data-umyid": "30"
+        },
+        "children": []
+      }
+    ]
+  }
+]
