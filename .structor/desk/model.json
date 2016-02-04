@@ -9,6 +9,121 @@
             "title": "Gihub Wacky Fun Go Party"
           },
           "children": []
+        },
+        {
+          "variantName": "3 Col with autosize",
+          "type": "Row",
+          "props": {},
+          "children": [
+            {
+              "type": "Col",
+              "props": {
+                "auto": true
+              },
+              "children": [
+                {
+                  "type": "Box",
+                  "props": {},
+                  "children": [
+                    {
+                      "variantName": "Unsaved variant",
+                      "type": "form",
+                      "props": {},
+                      "children": [
+                        {
+                          "variantName": "3 Col with autosize",
+                          "type": "Row",
+                          "props": {},
+                          "children": [
+                            {
+                              "type": "Col",
+                              "props": {
+                                "auto": true
+                              },
+                              "children": [
+                                {
+                                  "type": "Box",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "variantName": "Default",
+                                      "type": "TextField",
+                                      "props": {
+                                        "hintText": "Owner Name",
+                                        "style": {
+                                          "width": "100%"
+                                        }
+                                      },
+                                      "children": []
+                                    }
+                                  ],
+                                  "text": null
+                                }
+                              ],
+                              "text": null
+                            },
+                            {
+                              "type": "Col",
+                              "props": {
+                                "auto": true
+                              },
+                              "children": [
+                                {
+                                  "type": "Box",
+                                  "props": {},
+                                  "children": [
+                                    {
+                                      "variantName": "Default",
+                                      "type": "RaisedButton",
+                                      "props": {
+                                        "label": "Fetch Potato"
+                                      },
+                                      "children": []
+                                    }
+                                  ],
+                                  "text": null
+                                }
+                              ],
+                              "text": null
+                            }
+                          ],
+                          "text": null
+                        }
+                      ]
+                    }
+                  ],
+                  "text": null
+                }
+              ],
+              "text": null
+            }
+          ],
+          "text": null
+        },
+        {
+          "variantName": "3 Col with autosize",
+          "type": "Row",
+          "props": {},
+          "children": [
+            {
+              "variantName": "Default",
+              "type": "TableX",
+              "props": {
+                "fixedHeader": true,
+                "fixedFooter": true,
+                "stripedRows": true,
+                "showRowHover": true,
+                "selectable": false,
+                "multiSelectable": true,
+                "enableSelectAll": true,
+                "deselectOnClickaway": true,
+                "height": "400px"
+              },
+              "children": [],
+              "text": null
+            }
+          ],
+          "text": null
         }
       ],
       "props": {},
