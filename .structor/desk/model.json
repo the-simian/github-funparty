@@ -1,23 +1,20 @@
 {
   "pages": [
     {
-      "pageName": "PageSet1",
+      "pageName": "Main",
       "children": [
         {
           "type": "DemoAppBar",
           "props": {
-            "title": "ode",
-            "data-umyid": "2"
+            "title": "Gihub Wacky Fun Go Party"
           },
           "children": []
         }
       ],
-      "props": {
-        "data-umyid": "1"
-      },
+      "props": {},
       "pageMetaInfo": [],
       "bodyScript": "",
-      "pagePath": "/set1",
+      "pagePath": "/",
       "pageTitle": "PageSet1",
       "pageProps": [],
       "pageScript": ""

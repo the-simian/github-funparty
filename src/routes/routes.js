@@ -3,15 +3,15 @@
 import React from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
 import { createHistory } from 'history';
-import PageSet1 from './PageSet1.js';
+import Main from './Main.js';
 
 export default function() {
     const history = createHistory();
     return (
         <Router history={ history }>
             <Route path="/" component="div">
-                <IndexRoute component={ PageSet1 } />
-                <Route path="/set1" component={ PageSet1 } />
+                <IndexRoute component={ Main } />
+                <Route path="/" component={ Main } />
             </Route>
         </Router>
         );

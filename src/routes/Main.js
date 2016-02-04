@@ -8,16 +8,16 @@ import '../assets/css/main.css';
 import DemoAppBar from '../components/DemoGroup/DemoAppBar.jsx';
 
 
-class PageSet1 extends Component {
+class Main extends Component {
 
     render() {
         return (
             <div>
-                <DemoAppBar title="Click to navigate in preview mode" params={ this.props.params }></DemoAppBar>
+                <DemoAppBar title="Gihub Wacky Fun Go Party" params={ this.props.params }></DemoAppBar>
             </div>
             );
     }
 }
 
-export default PageSet1;
+export default Main;
 
