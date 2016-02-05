@@ -7,7 +7,6 @@
           "type": "DemoAppBar",
           "props": {
             "title": "Gihub Wacky Fun Go Party",
-            "data-umyid": "2",
             "style": {
               "display": "none"
             }
@@ -17,100 +16,22 @@
         {
           "variantName": "3 Col with autosize",
           "type": "Row",
-          "props": {
-            "data-umyid": "3"
-          },
+          "props": {},
           "children": [
             {
               "type": "Col",
               "props": {
-                "auto": true,
-                "data-umyid": "4"
+                "auto": true
               },
               "children": [
                 {
                   "type": "Box",
-                  "props": {
-                    "data-umyid": "5"
-                  },
+                  "props": {},
                   "children": [
                     {
                       "variantName": "Unsaved variant",
-                      "type": "form",
-                      "props": {
-                        "data-umyid": "6"
-                      },
-                      "children": [
-                        {
-                          "variantName": "3 Col with autosize",
-                          "type": "Row",
-                          "props": {
-                            "data-umyid": "7"
-                          },
-                          "children": [
-                            {
-                              "type": "Col",
-                              "props": {
-                                "auto": true,
-                                "data-umyid": "8"
-                              },
-                              "children": [
-                                {
-                                  "type": "Box",
-                                  "props": {
-                                    "data-umyid": "9"
-                                  },
-                                  "children": [
-                                    {
-                                      "variantName": "Default",
-                                      "type": "TextField",
-                                      "props": {
-                                        "hintText": "Owner Name",
-                                        "style": {
-                                          "width": "100%"
-                                        },
-                                        "data-umyid": "10"
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "text": null
-                                }
-                              ],
-                              "text": null
-                            },
-                            {
-                              "type": "Col",
-                              "props": {
-                                "auto": true,
-                                "data-umyid": "11"
-                              },
-                              "children": [
-                                {
-                                  "type": "Box",
-                                  "props": {
-                                    "data-umyid": "12"
-                                  },
-                                  "children": [
-                                    {
-                                      "variantName": "Default",
-                                      "type": "RaisedButton",
-                                      "props": {
-                                        "label": "Fetch Potato",
-                                        "data-umyid": "13"
-                                      },
-                                      "children": []
-                                    }
-                                  ],
-                                  "text": null
-                                }
-                              ],
-                              "text": null
-                            }
-                          ],
-                          "text": null
-                        }
-                      ]
+                      "type": "GithubRepoForm",
+                      "props": {}
                     }
                   ],
                   "text": null
@@ -124,24 +45,18 @@
         {
           "variantName": "3 Col with autosize",
           "type": "Row",
-          "props": {
-            "data-umyid": "14"
-          },
+          "props": {},
           "children": [
             {
               "variantName": "Unsaved variant",
               "type": "GithubRepoContainer",
-              "props": {
-                "data-umyid": "15"
-              }
+              "props": {}
             }
           ],
           "text": null
         }
       ],
-      "props": {
-        "data-umyid": "1"
-      },
+      "props": {},
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",

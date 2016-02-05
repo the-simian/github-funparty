@@ -8,27 +8,7 @@ class TableX extends Component {
         super(props, content); // this.state = {count: props.initialCount};
     }
 
-
-
     render() {
-
-
-
-        const rowsFake = [
-          {name: 'example'},
-          {status: 'data'},
-          {status: 'value', name: 'faccccccrts'},
-          {name: 'example2'}
-        ];
-
-        const cols = [{
-          prop: 'id',
-          tooltip: 'The ID'
-        }, {
-          prop: 'name',
-          tooltip: 'The Name'
-        }];
-
         const {
             fixedHeader,
             fixedFooter,
@@ -59,7 +39,8 @@ class TableX extends Component {
                     <TableRow>
                         <TableHeaderColumn tooltip='The ID'>ID</TableHeaderColumn>
                         <TableHeaderColumn tooltip='The Name'>Name</TableHeaderColumn>
-                        <TableHeaderColumn tooltip='The Status'>Status</TableHeaderColumn>
+                        <TableHeaderColumn tooltip='The Status'>Stars</TableHeaderColumn>
+                        <TableHeaderColumn tooltip='Watchers'>Watchers</TableHeaderColumn>
                     </TableRow>
                 </TableHeader>
                 <TableBody
@@ -70,7 +51,8 @@ class TableX extends Component {
                         <TableRow key={index} selected={row.selected}>
                           <TableRowColumn>{index}</TableRowColumn>
                           <TableRowColumn>{row.name}</TableRowColumn>
-                          <TableRowColumn>{row.status}</TableRowColumn>
+                          <TableRowColumn>{row.stargazers_count}</TableRowColumn>
+                          <TableRowColumn>{row.watchers}</TableRowColumn>
                         </TableRow>
                       )
                     )}
@@ -79,7 +61,8 @@ class TableX extends Component {
                     <TableRow>
                         <TableRowColumn>ID</TableRowColumn>
                         <TableRowColumn>Name</TableRowColumn>
-                        <TableRowColumn>Status</TableRowColumn>
+                        <TableRowColumn>Stars</TableRowColumn>
+                        <TableRowColumn>Watchers</TableRowColumn>
                     </TableRow>
                     <TableRow>
                         <TableRowColumn colSpan="3" style={{textAlign: 'center'}}>

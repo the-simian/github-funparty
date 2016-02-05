@@ -3,10 +3,21 @@ import { createAction, handleActions } from '../reduxActionsSequence';
 const FETCH_GIT_HUB_DATA = 'FETCH_GIT_HUB_DATA';
 
 export const fetchGitHubData = createAction(FETCH_GIT_HUB_DATA, searchTextField => {
-    return new Promise((resolve, reject) => {
-        setTimeout(() => {
-            resolve([{name: 'jesse', status: 'married'}]);
-        }, 3000);
+
+    const gh = 'https://api.github.com';
+    const users = gh + '/users';
+    const owner = users + '/' + searchTextField;
+    const repos = owner + '/repos';
+    const ghJson = 'application/vnd.github.v3+json'
+
+    return fetch(repos, {
+      method: 'get',
+      headers: {
+        'Accept': ghJson,
+        'User-Agent': 'request'
+      }
+    }).then(response => {
+      return response.json();
     });
 });
 
@@ -23,6 +34,9 @@ export default handleActions({
             return state;
         },
         next(state, action) {
+
+            console.log(action.payload)
+
             state = Object.assign({}, state, {
                 list: action.payload,
                 fetching: {
