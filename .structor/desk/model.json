@@ -6,44 +6,60 @@
         {
           "type": "DemoAppBar",
           "props": {
-            "title": "Gihub Wacky Fun Go Party"
+            "title": "Gihub Wacky Fun Go Party",
+            "data-umyid": "2",
+            "style": {
+              "display": "none"
+            }
           },
           "children": []
         },
         {
           "variantName": "3 Col with autosize",
           "type": "Row",
-          "props": {},
+          "props": {
+            "data-umyid": "3"
+          },
           "children": [
             {
               "type": "Col",
               "props": {
-                "auto": true
+                "auto": true,
+                "data-umyid": "4"
               },
               "children": [
                 {
                   "type": "Box",
-                  "props": {},
+                  "props": {
+                    "data-umyid": "5"
+                  },
                   "children": [
                     {
                       "variantName": "Unsaved variant",
                       "type": "form",
-                      "props": {},
+                      "props": {
+                        "data-umyid": "6"
+                      },
                       "children": [
                         {
                           "variantName": "3 Col with autosize",
                           "type": "Row",
-                          "props": {},
+                          "props": {
+                            "data-umyid": "7"
+                          },
                           "children": [
                             {
                               "type": "Col",
                               "props": {
-                                "auto": true
+                                "auto": true,
+                                "data-umyid": "8"
                               },
                               "children": [
                                 {
                                   "type": "Box",
-                                  "props": {},
+                                  "props": {
+                                    "data-umyid": "9"
+                                  },
                                   "children": [
                                     {
                                       "variantName": "Default",
@@ -52,7 +68,8 @@
                                         "hintText": "Owner Name",
                                         "style": {
                                           "width": "100%"
-                                        }
+                                        },
+                                        "data-umyid": "10"
                                       },
                                       "children": []
                                     }
@@ -65,18 +82,22 @@
                             {
                               "type": "Col",
                               "props": {
-                                "auto": true
+                                "auto": true,
+                                "data-umyid": "11"
                               },
                               "children": [
                                 {
                                   "type": "Box",
-                                  "props": {},
+                                  "props": {
+                                    "data-umyid": "12"
+                                  },
                                   "children": [
                                     {
                                       "variantName": "Default",
                                       "type": "RaisedButton",
                                       "props": {
-                                        "label": "Fetch Potato"
+                                        "label": "Fetch Potato",
+                                        "data-umyid": "13"
                                       },
                                       "children": []
                                     }
@@ -103,30 +124,24 @@
         {
           "variantName": "3 Col with autosize",
           "type": "Row",
-          "props": {},
+          "props": {
+            "data-umyid": "14"
+          },
           "children": [
             {
-              "variantName": "Default",
-              "type": "TableX",
+              "variantName": "Unsaved variant",
+              "type": "GithubRepoContainer",
               "props": {
-                "fixedHeader": true,
-                "fixedFooter": true,
-                "stripedRows": true,
-                "showRowHover": true,
-                "selectable": false,
-                "multiSelectable": true,
-                "enableSelectAll": true,
-                "deselectOnClickaway": true,
-                "height": "400px"
-              },
-              "children": [],
-              "text": null
+                "data-umyid": "15"
+              }
             }
           ],
           "text": null
         }
       ],
-      "props": {},
+      "props": {
+        "data-umyid": "1"
+      },
       "pageMetaInfo": [],
       "bodyScript": "",
       "pagePath": "/",

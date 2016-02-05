@@ -68,5 +68,9 @@ module.exports = {
     },
     DemoGroup: {
         DemoAppBar: require('../../src/components/DemoGroup/DemoAppBar.jsx')
+    },
+    GithubRepo: {
+        GithubRepoContainer: require('../../src/containers/GithubRepo/GithubRepoContainer.jsx'),
+        GithubRepoForm: require('../../src/containers/GithubRepo/GithubRepoForm.jsx')
     }
 };

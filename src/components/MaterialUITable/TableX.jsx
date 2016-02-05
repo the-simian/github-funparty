@@ -8,7 +8,27 @@ class TableX extends Component {
         super(props, content); // this.state = {count: props.initialCount};
     }
 
+
+
     render() {
+
+
+
+        const rowsFake = [
+          {name: 'example'},
+          {status: 'data'},
+          {status: 'value', name: 'faccccccrts'},
+          {name: 'example2'}
+        ];
+
+        const cols = [{
+          prop: 'id',
+          tooltip: 'The ID'
+        }, {
+          prop: 'name',
+          tooltip: 'The Name'
+        }];
+
         const {
             fixedHeader,
             fixedFooter,
@@ -20,6 +40,8 @@ class TableX extends Component {
             deselectOnClickaway,
             height
         } = this.props;
+
+        const rows = this.props.rows || [];
 
         return (
             <Table
@@ -44,41 +66,14 @@ class TableX extends Component {
                     deselectOnClickaway={deselectOnClickaway}
                     showRowHover={showRowHover}
                     stripedRows={stripedRows}>
-                    <TableRow selected={true}>
-                        <TableRowColumn>1</TableRowColumn>
-                        <TableRowColumn>John Smith</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>2</TableRowColumn>
-                        <TableRowColumn>Randal White</TableRowColumn>
-                        <TableRowColumn>Unemployed</TableRowColumn>
-                    </TableRow>
-                    <TableRow selected={true}>
-                        <TableRowColumn>3</TableRowColumn>
-                        <TableRowColumn>Stephanie Sanders</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>4</TableRowColumn>
-                        <TableRowColumn>Steve Brown</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>5</TableRowColumn>
-                        <TableRowColumn>Joyce Whitten</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>6</TableRowColumn>
-                        <TableRowColumn>Samuel Roberts</TableRowColumn>
-                        <TableRowColumn>Unemployed</TableRowColumn>
-                    </TableRow>
-                    <TableRow>
-                        <TableRowColumn>7</TableRowColumn>
-                        <TableRowColumn>Adam Moore</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
-                    </TableRow>
+                    {rows.map((row, index) => (
+                        <TableRow key={index} selected={row.selected}>
+                          <TableRowColumn>{index}</TableRowColumn>
+                          <TableRowColumn>{row.name}</TableRowColumn>
+                          <TableRowColumn>{row.status}</TableRowColumn>
+                        </TableRow>
+                      )
+                    )}
                 </TableBody>
                 <TableFooter>
                     <TableRow>
