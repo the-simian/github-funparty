@@ -15,7 +15,7 @@
     "flux-standard-action": "1.0.0",
     "history": "4.4.0",
     "isomorphic-fetch": "2.2.1",
-    "lodash": "4.x.x",
+    "lodash": "^4.17.2",
     "material-ui": "0.16.2",
     "react": "15.3.2",
     "react-addons-create-fragment": "15.3.2",
