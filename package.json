@@ -18,7 +18,7 @@
     "lodash": "4.x.x",
     "material-ui": "0.16.2",
     "react": "15.3.2",
-    "react-addons-create-fragment": "15.3.2",
+    "react-addons-create-fragment": "15.4.0",
     "react-addons-pure-render-mixin": "15.3.2",
     "react-addons-transition-group": "15.3.2",
     "react-addons-update": "15.3.2",
