@@ -31,7 +31,7 @@
   },
   "author": "",
   "devDependencies": {
-    "babel-core": "6.21.0",
+    "babel-core": "6.24.0",
     "babel-loader": "6.2.8",
     "babel-plugin-add-module-exports": "0.2.1",
     "babel-plugin-object-assign": "1.2.1",
