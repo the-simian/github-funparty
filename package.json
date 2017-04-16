@@ -46,7 +46,7 @@
     "esformatter": "0.10.0",
     "esformatter-jsx": "7.2.0",
     "esprima": "3.1.1",
-    "extract-text-webpack-plugin": "1.0.1",
+    "extract-text-webpack-plugin": "2.0.0",
     "file-loader": "0.10.0",
     "fs-extra": "1.0.0",
     "style-loader": "0.13.1",
