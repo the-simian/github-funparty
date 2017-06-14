@@ -13,7 +13,7 @@
     "express": "4.14.0",
     "express-urlrewrite": "1.2.0",
     "flux-standard-action": "1.0.0",
-    "history": "4.4.0",
+    "history": "4.6.2",
     "isomorphic-fetch": "2.2.1",
     "lodash": "4.x.x",
     "material-ui": "0.17.0",
