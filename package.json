@@ -19,7 +19,7 @@
     "material-ui": "0.17.0",
     "react": "15.3.2",
     "react-addons-create-fragment": "15.4.0",
-    "react-addons-pure-render-mixin": "15.3.2",
+    "react-addons-pure-render-mixin": "15.6.0",
     "react-addons-transition-group": "15.4.0",
     "react-addons-update": "15.3.2",
     "react-dom": "15.4.0",
