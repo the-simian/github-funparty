@@ -50,7 +50,7 @@
     "fs-extra": "2.0.0",
     "file-loader": "0.10.0",
     "style-loader": "0.13.1",
-    "url-loader": "0.5.7",
+    "url-loader": "0.6.1",
     "webpack": "1.14.0"
   }
 }
