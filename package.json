@@ -9,7 +9,7 @@
     "build-dev": "webpack --config ./build-conf/webpack-dev.config.js --progress --colors"
   },
   "dependencies": {
-    "body-parser": "1.17.1",
+    "body-parser": "1.18.3",
     "express": "4.14.0",
     "express-urlrewrite": "1.2.0",
     "flux-standard-action": "2.0.0",
